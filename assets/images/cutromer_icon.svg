@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="373" height="373" viewBox="0 0 373 373">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_75" data-name="Rectangle 75" width="373" height="373" rx="14" transform="translate(8208.219 189.219)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="cutromer_icon" transform="translate(-8208.219 -189.219)" clip-path="url(#clip-path)">
+    <g id="profile-user_1_" data-name="profile-user (1)" transform="translate(8208 189.008)">
+      <path id="Path_506" data-name="Path 506" d="M186.719,0C83.608,0,0,83.593,0,186.712S83.6,373.423,186.719,373.423s186.719-83.591,186.719-186.711S289.846,0,186.719,0Zm0,55.829a61.758,61.758,0,1,1-61.75,61.758A61.762,61.762,0,0,1,186.719,55.83Zm-.041,268.776A137.032,137.032,0,0,1,97.444,291.7a26.318,26.318,0,0,1-9.235-20A62.283,62.283,0,0,1,150.8,209.431h71.863A62.194,62.194,0,0,1,285.147,271.7a26.253,26.253,0,0,1-9.227,20A136.985,136.985,0,0,1,186.678,324.606Z" transform="translate(0 -0.002)"/>
+    </g>
+  </g>
+</svg>
