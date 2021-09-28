@@ -15,6 +15,9 @@ import History from './src/StationaryScreens/MakeupArtist/History.js';
 import Dashboard from './src/StationaryScreens/Craftsmen/Dashboard.js';
 import MakeupDashboard from './src/StationaryScreens/MakeupArtist/MakeupDashboard.js';
 import FoodDashboard from './src/StationaryScreens/Food/FoodDashboard.js';
+import FoodHistory from './src/StationaryScreens/Food/FoodHistory.js';
+import CraftsmenHistory from './src/StationaryScreens/Craftsmen/CraftsmenHistory.js';
+import ProductInStock from './src/StationaryScreens/Craftsmen/ProductInStock.js';
 
 
 
@@ -24,7 +27,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={FoodDashboard} />
+        <Stack.Screen name="Home" component={ProductInStock} />
       </Stack.Navigator>
     </NavigationContainer>
   );
