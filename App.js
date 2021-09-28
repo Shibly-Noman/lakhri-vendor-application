@@ -11,6 +11,7 @@ import ProfessionalHomechef from './src/StationaryScreens/Food/ProfessionalHomec
 import ServingGoodFood from './src/StationaryScreens/Craftsmen/ServingGoodFood.js';
 import SomethingGoodContent from './src/StationaryScreens/MakeupArtist/SomethingGoodContent.js';
 import AvailableServices from './src/StationaryScreens/MakeupArtist/AvailableServices.js';
+import History from './src/StationaryScreens/MakeupArtist/History.js';
 
 
 
@@ -20,7 +21,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={AvailableServices} />
+        <Stack.Screen name="Home" component={History} />
       </Stack.Navigator>
     </NavigationContainer>
   );
