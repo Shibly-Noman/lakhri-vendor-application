@@ -18,6 +18,7 @@ import FoodDashboard from './src/StationaryScreens/Food/FoodDashboard.js';
 import FoodHistory from './src/StationaryScreens/Food/FoodHistory.js';
 import CraftsmenHistory from './src/StationaryScreens/Craftsmen/CraftsmenHistory.js';
 import ProductInStock from './src/StationaryScreens/Craftsmen/ProductInStock.js';
+import FoodProductInStock from './src/StationaryScreens/Food/FoodProductInStock.js';
 
 
 
@@ -27,7 +28,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={ProductInStock} />
+        <Stack.Screen name="Home" component={FoodProductInStock} />
       </Stack.Navigator>
     </NavigationContainer>
   );
