@@ -27,6 +27,7 @@ import MakeupArtistWelcomeBack from './src/StationaryScreens/MakeupArtist/Makeup
 import MakeupServiceDelivered from './src/StationaryScreens/MakeupArtist/MakeupServiceDelivered.js';
 import CraftsOrderDelivered from './src/StationaryScreens/Craftsmen/CraftsOrderDelivered.js';
 import FoodOrderDelivered from './src/StationaryScreens/Food/FoodOrderDelivered.js';
+import MakeupPaymentHistory from './src/StationaryScreens/MakeupArtist/MakeupPaymentHistory.js';
 
 
 
@@ -36,7 +37,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={FoodOrderDelivered} />
+        <Stack.Screen name="Home" component={MakeupPaymentHistory} />
       </Stack.Navigator>
     </NavigationContainer>
   );

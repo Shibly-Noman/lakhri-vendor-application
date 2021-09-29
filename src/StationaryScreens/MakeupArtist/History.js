@@ -150,8 +150,8 @@ function History() {
                     flexDirection: 'row',
                     justifyContent: 'space-between'
                 }}>
-                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Ordered Item</Text>
-                    <Text style={{ marginTop: 15 }}>Biriany</Text>
+                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Service Take:</Text>
+                    <Text style={{ marginTop: 15 }}>Bridal Makeup</Text>
                     <view style={{
                         marginTop: 6
                     }}>
@@ -169,7 +169,7 @@ function History() {
                     flexDirection: 'row',
                     justifyContent: 'space-between'
                 }}>
-                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Payment Method</Text>
+                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Payment Method:</Text>
                     <Text style={{ marginTop: 15 }}>Cash on Delivery</Text>
                     <Text></Text>
                 </View>
@@ -178,7 +178,7 @@ function History() {
                     flexDirection: 'row',
                     justifyContent: 'space-between'
                 }}>
-                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Delivery Charge</Text>
+                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Delivery Charge:</Text>
                     <Text style={{ marginTop: 15 }}>45.00 BDT</Text>
                     <Text style={{ width: 20 }}></Text>
                 </View>
@@ -311,8 +311,8 @@ function History() {
                     flexDirection: 'row',
                     justifyContent: 'space-between'
                 }}>
-                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Ordered Item</Text>
-                    <Text style={{ marginTop: 15 }}>Biriany</Text>
+                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Service Take:</Text>
+                    <Text style={{ marginTop: 15 }}>Bridal Makeup</Text>
                     <view style={{
                         marginTop: 6
                     }}>
@@ -330,7 +330,7 @@ function History() {
                     flexDirection: 'row',
                     justifyContent: 'space-between'
                 }}>
-                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Payment Method</Text>
+                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Payment Method:</Text>
                     <Text style={{ marginTop: 15 }}>Cash on Delivery</Text>
                     <Text></Text>
                 </View>
@@ -339,7 +339,7 @@ function History() {
                     flexDirection: 'row',
                     justifyContent: 'space-between'
                 }}>
-                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Delivery Charge</Text>
+                    <Text style={{ fontWeight: 600, marginTop: 15 }}>Delivery Charge:</Text>
                     <Text style={{ marginTop: 15 }}>45.00 BDT</Text>
                     <Text style={{ width: 20 }}></Text>
                 </View>
