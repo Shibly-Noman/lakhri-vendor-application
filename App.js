@@ -24,6 +24,9 @@ import CraftsActiveOrder from './src/StationaryScreens/Craftsmen/CraftsActiveOrd
 import WelcomeBack from './src/StationaryScreens/Food/WelcomeBack.js';
 import CraftsmenWelcomeBack from './src/StationaryScreens/Craftsmen/CraftsmenWelcomeBack.js';
 import MakeupArtistWelcomeBack from './src/StationaryScreens/MakeupArtist/MakeupArtistWelcomeBack.js';
+import MakeupServiceDelivered from './src/StationaryScreens/MakeupArtist/MakeupServiceDelivered.js';
+import CraftsOrderDelivered from './src/StationaryScreens/Craftsmen/CraftsOrderDelivered.js';
+import FoodOrderDelivered from './src/StationaryScreens/Food/FoodOrderDelivered.js';
 
 
 
@@ -33,7 +36,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={MakeupArtistWelcomeBack} />
+        <Stack.Screen name="Home" component={FoodOrderDelivered} />
       </Stack.Navigator>
     </NavigationContainer>
   );
