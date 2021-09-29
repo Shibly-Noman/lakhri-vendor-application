@@ -46,7 +46,7 @@ function CraftsActiveOrder() {
                     justifyContent: 'space-between'
                 }}>
                     <Text style={{ fontWeight: 600, marginTop: 10 }}>Ordered Item</Text>
-                    <Text style={{ marginTop: 10 }}>Biriany</Text>
+                    <Text style={{ marginTop: 10 }}>Pottery</Text>
 
                     <Avatar
                         rounded
@@ -115,7 +115,7 @@ function CraftsActiveOrder() {
                     justifyContent: 'space-between'
                 }}>
                     <Text style={{ fontWeight: 600, marginTop: 10 }}>Ordered Item</Text>
-                    <Text style={{ marginTop: 10 }}>Biriany</Text>
+                    <Text style={{ marginTop: 10 }}>Caligraphy</Text>
 
                     <Avatar
                         rounded
