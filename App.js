@@ -19,6 +19,8 @@ import FoodHistory from './src/StationaryScreens/Food/FoodHistory.js';
 import CraftsmenHistory from './src/StationaryScreens/Craftsmen/CraftsmenHistory.js';
 import ProductInStock from './src/StationaryScreens/Craftsmen/ProductInStock.js';
 import FoodProductInStock from './src/StationaryScreens/Food/FoodProductInStock.js';
+import ActiveOrder from './src/StationaryScreens/Food/ActiveOrder.js';
+import CraftsActiveOrder from './src/StationaryScreens/Craftsmen/CraftsActiveOrder.js';
 
 
 
@@ -28,7 +30,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={FoodProductInStock} />
+        <Stack.Screen name="Home" component={CraftsActiveOrder} />
       </Stack.Navigator>
     </NavigationContainer>
   );
