@@ -21,6 +21,9 @@ import ProductInStock from './src/StationaryScreens/Craftsmen/ProductInStock.js'
 import FoodProductInStock from './src/StationaryScreens/Food/FoodProductInStock.js';
 import ActiveOrder from './src/StationaryScreens/Food/ActiveOrder.js';
 import CraftsActiveOrder from './src/StationaryScreens/Craftsmen/CraftsActiveOrder.js';
+import WelcomeBack from './src/StationaryScreens/Food/WelcomeBack.js';
+import CraftsmenWelcomeBack from './src/StationaryScreens/Craftsmen/CraftsmenWelcomeBack.js';
+import MakeupArtistWelcomeBack from './src/StationaryScreens/MakeupArtist/MakeupArtistWelcomeBack.js';
 
 
 
@@ -30,7 +33,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={CraftsActiveOrder} />
+        <Stack.Screen name="Home" component={MakeupArtistWelcomeBack} />
       </Stack.Navigator>
     </NavigationContainer>
   );
