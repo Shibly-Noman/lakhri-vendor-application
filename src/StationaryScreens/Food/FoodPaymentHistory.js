@@ -3,7 +3,7 @@ import * as React from 'react';
 import { View, Text, Image, Button, TextInput, CheckBox, TouchableWithoutFeedbackBase } from 'react-native'
 import { Card, Avatar } from 'react-native-elements'
 
-function MakeupPaymentHistory() {
+function FoodPaymentHistory() {
     return (
         <View style={{
             flex: 1,
@@ -36,7 +36,7 @@ function MakeupPaymentHistory() {
                     display: 'flex'
                 }}>
                     <Image
-                        source={require('../../../assets/images/Makeup4.jpg')}
+                        source={require('../../../assets/images/Customer.jpg')}
                         style={{
                             height: 50,
                             width: 50,
@@ -53,7 +53,7 @@ function MakeupPaymentHistory() {
 
                         }}>
 
-                            <Text style={{ fontWeight: 700, fontFamily: 'sans-serif', fontSize: 15 }}>MUA Name</Text>
+                            <Text style={{ fontWeight: 700, fontFamily: 'sans-serif', fontSize: 15 }}>Customer Name</Text>
 
 
                         </View>
@@ -63,7 +63,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Name:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Selling item:</Text>
 
 
                             </View>
@@ -72,7 +72,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Time:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Quantity:</Text>
 
 
                             </View>
@@ -81,7 +81,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Location:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Delivery Location:</Text>
 
 
                             </View>
@@ -90,26 +90,12 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Charge:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Delivery Charge:</Text>
 
 
                             </View>
                         </view>
                     </view>
-                </view>
-                <view style={{
-                    display: 'flex',
-
-                }}>
-                    <Image
-                        source={require('../../../assets/images/review_star.svg')}
-                        style={{
-
-                            height: 15,
-                            width: 15,
-                        }}
-                    />
-                    <text style={{ fontSize: 12, paddingLeft: 5, paddingTop: 2, }}>4.5</text>
                 </view>
                 <view>
                     <View style={{
@@ -127,7 +113,7 @@ function MakeupPaymentHistory() {
                             justifyContent: 'space-between'
                         }}>
 
-                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>Bridal Makeup</Text>
+                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>Bririyany</Text>
 
                         </View>
                         <View style={{
@@ -136,7 +122,7 @@ function MakeupPaymentHistory() {
                             justifyContent: 'space-between'
                         }}>
 
-                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>1 Hour</Text>
+                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>5 Pkt</Text>
 
                         </View>
                         <View style={{
@@ -165,7 +151,7 @@ function MakeupPaymentHistory() {
                     display: 'flex'
                 }}>
                     <Image
-                        source={require('../../../assets/images/Makeup4.jpg')}
+                        source={require('../../../assets/images/Customer.jpg')}
                         style={{
                             height: 50,
                             width: 50,
@@ -182,7 +168,7 @@ function MakeupPaymentHistory() {
 
                         }}>
 
-                            <Text style={{ fontWeight: 700, fontFamily: 'sans-serif', fontSize: 15 }}>MUA Name</Text>
+                            <Text style={{ fontWeight: 700, fontFamily: 'sans-serif', fontSize: 15 }}>Customer Name</Text>
 
 
                         </View>
@@ -192,7 +178,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Name:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Selling item:</Text>
 
 
                             </View>
@@ -201,7 +187,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Time:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Quantity:</Text>
 
 
                             </View>
@@ -210,7 +196,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Location:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Delivery Location:</Text>
 
 
                             </View>
@@ -219,26 +205,12 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Charge:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Delivery Charge:</Text>
 
 
                             </View>
                         </view>
                     </view>
-                </view>
-                <view style={{
-                    display: 'flex',
-
-                }}>
-                    <Image
-                        source={require('../../../assets/images/review_star.svg')}
-                        style={{
-
-                            height: 15,
-                            width: 15,
-                        }}
-                    />
-                    <text style={{ fontSize: 12, paddingLeft: 5, paddingTop: 2, }}>4.5</text>
                 </view>
                 <view>
                     <View style={{
@@ -256,7 +228,7 @@ function MakeupPaymentHistory() {
                             justifyContent: 'space-between'
                         }}>
 
-                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>Bridal Makeup</Text>
+                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>Bririyany</Text>
 
                         </View>
                         <View style={{
@@ -265,7 +237,7 @@ function MakeupPaymentHistory() {
                             justifyContent: 'space-between'
                         }}>
 
-                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>1 Hour</Text>
+                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>5 Pkt</Text>
 
                         </View>
                         <View style={{
@@ -294,7 +266,7 @@ function MakeupPaymentHistory() {
                     display: 'flex'
                 }}>
                     <Image
-                        source={require('../../../assets/images/Makeup4.jpg')}
+                        source={require('../../../assets/images/Customer.jpg')}
                         style={{
                             height: 50,
                             width: 50,
@@ -311,7 +283,7 @@ function MakeupPaymentHistory() {
 
                         }}>
 
-                            <Text style={{ fontWeight: 700, fontFamily: 'sans-serif', fontSize: 15 }}>MUA Name</Text>
+                            <Text style={{ fontWeight: 700, fontFamily: 'sans-serif', fontSize: 15 }}>Customer Name</Text>
 
 
                         </View>
@@ -321,7 +293,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Name:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Selling item:</Text>
 
 
                             </View>
@@ -330,7 +302,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Time:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Quantity:</Text>
 
 
                             </View>
@@ -339,7 +311,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Location:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Delivery Location:</Text>
 
 
                             </View>
@@ -348,26 +320,12 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Charge:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Delivery Charge:</Text>
 
 
                             </View>
                         </view>
                     </view>
-                </view>
-                <view style={{
-                    display: 'flex',
-
-                }}>
-                    <Image
-                        source={require('../../../assets/images/review_star.svg')}
-                        style={{
-
-                            height: 15,
-                            width: 15,
-                        }}
-                    />
-                    <text style={{ fontSize: 12, paddingLeft: 5, paddingTop: 2, }}>4.5</text>
                 </view>
                 <view>
                     <View style={{
@@ -385,7 +343,7 @@ function MakeupPaymentHistory() {
                             justifyContent: 'space-between'
                         }}>
 
-                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>Bridal Makeup</Text>
+                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>Bririyany</Text>
 
                         </View>
                         <View style={{
@@ -394,7 +352,7 @@ function MakeupPaymentHistory() {
                             justifyContent: 'space-between'
                         }}>
 
-                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>1 Hour</Text>
+                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>5 Pkt</Text>
 
                         </View>
                         <View style={{
@@ -423,7 +381,7 @@ function MakeupPaymentHistory() {
                     display: 'flex'
                 }}>
                     <Image
-                        source={require('../../../assets/images/Makeup4.jpg')}
+                        source={require('../../../assets/images/Customer.jpg')}
                         style={{
                             height: 50,
                             width: 50,
@@ -440,7 +398,7 @@ function MakeupPaymentHistory() {
 
                         }}>
 
-                            <Text style={{ fontWeight: 700, fontFamily: 'sans-serif', fontSize: 15 }}>MUA Name</Text>
+                            <Text style={{ fontWeight: 700, fontFamily: 'sans-serif', fontSize: 15 }}>Customer Name</Text>
 
 
                         </View>
@@ -450,7 +408,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Name:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Selling item:</Text>
 
 
                             </View>
@@ -459,7 +417,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Time:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Quantity:</Text>
 
 
                             </View>
@@ -468,7 +426,7 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Location:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Delivery Location:</Text>
 
 
                             </View>
@@ -477,26 +435,12 @@ function MakeupPaymentHistory() {
                                 flexDirection: 'row',
                                 justifyContent: 'space-between'
                             }}>
-                                <Text style={{ marginTop: 10, fontSize: 12 }}>Service Charge:</Text>
+                                <Text style={{ marginTop: 10, fontSize: 12 }}>Delivery Charge:</Text>
 
 
                             </View>
                         </view>
                     </view>
-                </view>
-                <view style={{
-                    display: 'flex',
-
-                }}>
-                    <Image
-                        source={require('../../../assets/images/review_star.svg')}
-                        style={{
-
-                            height: 15,
-                            width: 15,
-                        }}
-                    />
-                    <text style={{ fontSize: 12, paddingLeft: 5, paddingTop: 2, }}>4.5</text>
                 </view>
                 <view>
                     <View style={{
@@ -514,7 +458,7 @@ function MakeupPaymentHistory() {
                             justifyContent: 'space-between'
                         }}>
 
-                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>Bridal Makeup</Text>
+                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>Bririyany</Text>
 
                         </View>
                         <View style={{
@@ -523,7 +467,7 @@ function MakeupPaymentHistory() {
                             justifyContent: 'space-between'
                         }}>
 
-                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>1 Hour</Text>
+                            <Text style={{ marginTop: 10, fontSize: 12, fontWeight: 600, }}>5 Pkt</Text>
 
                         </View>
                         <View style={{
@@ -551,4 +495,4 @@ function MakeupPaymentHistory() {
     );
 }
 
-export default MakeupPaymentHistory;
+export default FoodPaymentHistory;
