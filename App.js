@@ -29,6 +29,7 @@ import CraftsOrderDelivered from './src/StationaryScreens/Craftsmen/CraftsOrderD
 import FoodOrderDelivered from './src/StationaryScreens/Food/FoodOrderDelivered.js';
 import MakeupPaymentHistory from './src/StationaryScreens/MakeupArtist/MakeupPaymentHistory.js';
 import FoodPaymentHistory from './src/StationaryScreens/Food/FoodPaymentHistory.js';
+import CraftsmenPaymentHistory from './src/StationaryScreens/Craftsmen/CraftsmenPaymentHistory.js';
 
 
 
@@ -38,7 +39,7 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={FoodPaymentHistory} />
+        <Stack.Screen name="Home" component={CraftsmenPaymentHistory} />
       </Stack.Navigator>
     </NavigationContainer>
   );
